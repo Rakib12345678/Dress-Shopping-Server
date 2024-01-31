@@ -40,7 +40,7 @@ public class AppConfig {
 						
 						cfg.setAllowedOrigins(Arrays.asList(
 
-								"https://codewith-abdur.vercel.app"
+								"https://codewith-abdur-ow98eshx3-abdur-rakibs-projects.vercel.app/"
 								
 							)
 						);
