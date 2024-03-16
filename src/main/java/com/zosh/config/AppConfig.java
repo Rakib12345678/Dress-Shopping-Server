@@ -38,15 +38,11 @@ public class AppConfig {
 						
 						CorsConfiguration cfg = new CorsConfiguration();
 						
-						cfg.setAllowedOrigins(Arrays.asList(
-
-								"https://codewith-abdur.vercel.app/"
-								
-							)
+						cfg.setAllowedOrigins(Collections.singletonList("*")
 						);
-						//cfg.setAllowedMethods(Arrays.asList("GET", "POST","DELETE","PUT"));
+					
 						cfg.setAllowedMethods(Collections.singletonList("*"));
-						cfg.setAllowCredentials(true);
+
 						cfg.setAllowedHeaders(Collections.singletonList("*"));
 						cfg.setExposedHeaders(Arrays.asList("Authorization"));
 						cfg.setMaxAge(3600L);
